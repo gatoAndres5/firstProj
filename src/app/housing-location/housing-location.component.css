@@ -1,10 +1,10 @@
 .listing {
-    background: rgb(190, 93, 247);
+    background: var(--accent-color);
     border-radius: 30px;
     padding-bottom: 30px;
   }
   .listing-heading {
-    color: rgb(190, 93, 247);
+    color: var(--primary-color);
     padding: 10px 20px 0 20px;
   }
   .listing-photo {
@@ -17,7 +17,7 @@
     padding: 10px 20px 20px 20px;
   }
   .listing-location::before {
-    content: url("/assets/House1.jpg") / "";
+    content: url("/assets/location-pin.svg") / "";
   }
   
   section.listing a {
